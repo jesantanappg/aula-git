@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula Git e Github</title>
 </head>
+
 <body>
     <!--
         * GIT - Sistema que controla alterações dentro de um arquivo
@@ -39,7 +41,11 @@
         3. crie um clone do git na pasta localhost
             - git clone https:/github.com/... (endereço da pasta)
             - dir para confirmar a conexão
-    --> 
+    -->
+    <?php
+        echo "Olá mundo";
+    ?>
 
 </body>
+
 </html>
