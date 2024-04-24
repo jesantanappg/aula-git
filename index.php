@@ -35,14 +35,15 @@
         Caso eu não estaja mais no laboratório e queira conectar com o mesmo projeto em casa, como eu faria?
         1. Abra um novo terminal
         2. Acesse à pasta do servidor local e htdocs
-            - cd
-            - cd . Xampp
-            - cd . htdocs
+            - cd /
+            - cd Xampp
+            - cd htdocs
         3. crie um clone do git na pasta localhost
             - git clone https:/github.com/... (endereço da pasta)
             - dir para confirmar a conexão
     -->
     <?php
+        echo "<h1>Jefferson</h1>"
         echo "Olá mundo";
     ?>
 
