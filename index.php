@@ -43,7 +43,7 @@
             - dir para confirmar a conexão
         4. Salvar Commit é necessário ir no menu no item Source Control
             - Adicionar mensagem de commit para indicar as alterações feitas
-            
+            - Depois é necessário clicar em Sync Changes
     -->
     <?php
         echo "<h1>Jefferson</h1>"
