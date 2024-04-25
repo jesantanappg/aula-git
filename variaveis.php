@@ -14,7 +14,6 @@ Variáveis e Constantes em PHP
 
 No PHP, variáveis e constantes são elementos fundamentais para armazenar e gerenciar dados em seus programas. Compreendê-las é crucial para escrever código eficiente e organizado.
 
-
 o que é variável? 
 Uma variável é um contêiner nomeado que armazena um valor que pode ser alterado durante a execução do script. Imagine-a como uma caixa com um rótulo, onde você pode guardar e recuperar dados.
 
@@ -78,6 +77,49 @@ Uma outra forma é const NOME DA CONSTANTE = "valor";
     phpinfo();
 
     echo "Muito prazer, $nome $sobrenome! Você mora no " . PAIS;
+
+    //OPERADORES
+
+    $numero1 = 20;
+    $numero2 = 10;
+
+    $soma = $numero1 + $numero2; //30
+    $subtracao = $numero1 - $numero2; //10
+    $multiplicacao = $numero1 * $numero2; //200
+    $divisao = $numero1 / $numero2; //2
+    $restoDivisao = $numero1 % $numero2; //0
+
+    echo "Soma: ".$soma."<br>";
+    echo "Subtração: ".$subtracao."<br>";
+    echo "Multiplicação: ".$multiplicacao."<br>";
+    echo "Divisão: ".$divisao."<br>";
+    echo "Resto de divisão: ".$restoDivisao."<br>";
+  
+    // OPERADORES DE COMPARAÇÃO
+
+    $numero1 > $numero2; // Maior
+    $numero1 >= $numero2; // Maior igual
+    $numero1 < $numero2; // Menor
+    $numero1 <= $numero2; // Menor igual
+    $numero1 == $numero2; // Igual
+    $numero1 != $numero2; // Diferente
+    $numero1 === $numero2; // Mesmo valor e mesmo tipo
+    $numero1 !== $numero2; // Diferente valor ou diferente tipo
+    
+    $texto = "10"; // == true
+    $numero = 10; // === false
+
+    //OPERADORES DE ATRIBUIÇÃO
+
+    $texto .= "20"; // "10 20"
+    $numero += 10; // 20
+    $numero -= 10; // 0
+    $numero *= 10; // 100
+    $numero /= 10; // 1
+
+    $numero++; //soma-se 1 = 11 incremento
+    $numero--; //subtrai-se 1 = 9 decremento
+    
     ?>
 
 </body>
